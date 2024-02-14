@@ -1,16 +1,17 @@
 						Image Proccesor in C
----------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------
 
   In aceasta tema am avut de creat, alocat si eliberat matrici de pixeli si de creat un mediu interactiv in care ne putem juca cu anumite comenzi. 
 Programul este constituita din "2 parti", unul mai usoar si unul mai greu.
   Prima parte este formata din 6 functii care editeaza o imagine, fiind defapt operatii pe matrici tridimensionale alocate dinamic.
 A doua parte este implementarea unui algortim care permite utilizatorului sa aplice cateva comenzi de editare pe o imagine aleasa de el.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 						Manual de utilizare 
------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 
 -> e 		- 				|Exit - închide programul
 -> l 		N M path 			|Load - alocă și încarcă imaginea de dimensiune NxM aflată la calea path
@@ -26,4 +27,4 @@ A doua parte este implementarea unui algortim care permite utilizatorului sa apl
 -> df 		index_filter 			|Delete filter - șterge și dezalocă filtrul de pe indexul index_filter
 -> di 		index_img 	
 
-------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
