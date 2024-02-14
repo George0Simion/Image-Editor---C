@@ -1,15 +1,16 @@
 						Image Proccesor in C
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
-  In aceasta tema am avut de creat, alocat si eliberat matrici de pixeli si de creat un mediu interactiv in care ne putem juca cu anumite comenzi. Programul este constituita din "2 parti", unul mai usoar si unul mai greu.
+  In aceasta tema am avut de creat, alocat si eliberat matrici de pixeli si de creat un mediu interactiv in care ne putem juca cu anumite comenzi. 
+Programul este constituita din "2 parti", unul mai usoar si unul mai greu.
   Prima parte este formata din 6 functii care editeaza o imagine, fiind defapt operatii pe matrici tridimensionale alocate dinamic.
 A doua parte este implementarea unui algortim care permite utilizatorului sa aplice cateva comenzi de editare pe o imagine aleasa de el.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 						Manual de utilizare 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
 
 -> e 		- 				|Exit - închide programul
 -> l 		N M path 			|Load - alocă și încarcă imaginea de dimensiune NxM aflată la calea path
@@ -19,14 +20,10 @@ A doua parte este implementarea unui algortim care permite utilizatorului sa apl
 -> ac 		index x y w h 			|Apply Crop - aplică operația de crop cu parametrii dați imaginii de la indexul index
 -> ae 		index rows cols R G B 		|Apply Extend - aplică operația de extend cu parametrii dați imaginii de la indexul index
 -> ap 		index_dst index_src x y 	|Apply Paste - aplică operația de paste cu parametrii dați imaginii de la indexul index_dst
--> cf 		size [list of values] 		|Create filter - alocă și crează un filtru de dimensiune size cu valorile date de lista de valori (exemplu: dacă se creează un filtru de dimensiune 3, atunci după size vor urma 9 valori
+-> cf 		size [list of values] 		|Create filter - alocă și crează un filtru de dimensiune size cu valorile date de lista de valori 
+(exemplu: dacă se creează un filtru de dimensiune 3, atunci după size vor urma 9 valori
 -> af 		index_img index_filter 		|Apply filter - aplică filtrul de pe indexul index_filter pe imaginea de pe indexul index_img
 -> df 		index_filter 			|Delete filter - șterge și dezalocă filtrul de pe indexul index_filter
 -> di 		index_img 	
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-						Feedback
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-  Aceasta tema mi s-a parut una frumoasa, amuzanta, dar si din care am avut ocazie sa invat multe despre alocarea dincamica si lucrul cu memoria
+------------------------------------------------------------------------------------------------------------------------------------------------------
